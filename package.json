@@ -1,0 +1,21 @@
+{
+  "name": "vinext-smoke-test",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vinext dev",
+    "build": "vinext build",
+    "start": "vinext start"
+  },
+  "dependencies": {
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "vinext": "^0.0.18"
+  },
+  "devDependencies": {
+    "@cloudflare/vite-plugin": "^1.25.6",
+    "vite": "^7.0.0",
+    "wrangler": "^4.69.0"
+  }
+}
